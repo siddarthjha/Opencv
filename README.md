@@ -15,6 +15,9 @@ The code is mainly focused on OpenCV 3.x version (although most of them will als
 6. Copy cv2.pyd to C:/Python27/lib/site-packages.
 7. Open Python IDLE and type following codes in Python terminal
 
+# Table of Contents
+* [GUI Features]()
+
 ## How to Contribute
 
 This is an open project and contribution in all forms are welcomed.
