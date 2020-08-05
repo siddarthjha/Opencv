@@ -7,3 +7,5 @@ You will learn these functions : cv2.imread(), cv2.imshow() , cv2.imwrite()
 
 # Getting Started with Videos
 You will learn these functions : cv2.VideoCapture(), cv2.VideoWriter()
+* [Video](https://github.com/siddarthjha/Opencv/tree/master/GUI%20Features/Video.py)
+
