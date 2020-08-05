@@ -14,3 +14,12 @@ The code is mainly focused on OpenCV 3.x version (although most of them will als
 5. Goto opencv/build/python/2.7 folder.
 6. Copy cv2.pyd to C:/Python27/lib/site-packages.
 7. Open Python IDLE and type following codes in Python terminal
+
+## How to Contribute
+
+This is an open project and contribution in all forms are welcomed.
+Please follow these [Contribution Guidelines](CONTRIBUTING.md)
+
+## Code of Conduct
+
+Adhere to the GitHub specified community [code](CODE_OF_CONDUCT.md).
