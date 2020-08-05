@@ -16,6 +16,7 @@ cv2.imshow('Memories', img)
 k = cv2.waitKey(0) # Different way to destroy the window
 if k == 27:
 	cv2.destroyWindow('Memories') 
+# If you want to save the picture then press 's' to save
 elif k == ord('s'):
 	cv2.imwrite('newfile.jpg', img)  # 5. This function is used to save an image->First parameter name of the file and Second is the image you want to save it
 	cv2.destroyWindow('Memories') 
