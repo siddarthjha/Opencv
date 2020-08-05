@@ -20,3 +20,8 @@ if k == 27:
 elif k == ord('s'):
 	cv2.imwrite('newfile.jpg', img)  # 5. This function is used to save an image->First parameter name of the file and Second is the image you want to save it
 	cv2.destroyWindow('Memories') 
+
+# Using Matplotlib
+plt.imshow(img, cmap = 'gray')
+plt.xticks([]), plt.yticks([])  # to hide tick values on X and Y axis
+plt.show()
