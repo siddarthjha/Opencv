@@ -25,3 +25,11 @@ elif k == ord('s'):
 plt.imshow(img, cmap = 'gray')
 plt.xticks([]), plt.yticks([])  # to hide tick values on X and Y axis
 plt.show()
+
+# So to view opencv image in matplotlib properly
+b, g, r = cv2.split(img)
+img2 = cv2.merge([r, g, b])
+
+plt.imshow(img2, cmap = 'gray', interpolation = 'bicubic')
+plt.xticks([]), plt.yticks([])        # to hide tick values on X and Y axis
+plt.show()
