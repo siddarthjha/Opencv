@@ -7,5 +7,9 @@ You will learn these functions : cv2.imread(), cv2.imshow() , cv2.imwrite()
 
 # Getting Started with Videos
 You will learn these functions : cv2.VideoCapture(), cv2.VideoWriter()
+
+FourCC is a 4-byte code used to specify the video codec. The list of available codes can be found in [fourcc.org](http://www.fourcc.org/codecs.php). It is platform dependent. 
+
+
 * [Video](https://github.com/siddarthjha/Opencv/tree/master/GUI%20Features/Video.py)
 
