@@ -28,10 +28,10 @@ if cv2.waitKey(0) & 0xFF == ord('q'):
 	cv2.destroyWindow('frame')
 
 # -------------ELLIPSE--------------------
-img = np.zeros((512, 600, 3), np.uint8)
-img = cv2.ellipse(img, (256, 256), (100, 50), 0, 0, 180, 255, 5)
-# Thiis function creates the ellipse -1-The image, 2-The center coordinates, 3-Axes length(major axis, minor axis), 4-Angle of rotation of
-# ellipse in anticlockwise, 5-startAngle and endAngle starting and ending of ellipse arc in clockwise
+img = np.zeros((512, 512, 3), np.uint8)
+img = cv2.ellipse(img, (256, 256), (100, 50), 0, 0, 180, 255, -1)
+# Thiis function creates the ellipse -(1-The image, 2-The center coordinates, 3-Axes length(major axis, minor axis), 4-Angle of rotation of
+# ellipse in anticlockwise, 5-startAngle and endAngle starting and ending of ellipse arc in clockwise)
 cv2.imshow('frame', img)
 if cv2.waitKey(0) & 0xFF == ord('q'):
 	cv2.destroyWindow('frame')
