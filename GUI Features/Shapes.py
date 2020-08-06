@@ -37,14 +37,14 @@ if cv2.waitKey(0) & 0xFF == ord('q'):
 	cv2.destroyWindow('frame')
 	
 # -------------POLYGON-----------------
-img = np.zeros((512, 600, 3), np.uint8)
+img = np.zeros((512, 512, 3), np.uint8)
 pt  = np.array([[10, 5], [20, 30], [70, 20], [50, 10]], np.int32)  
 # This function creates the nd array with the given data type(optional)
 pt  = pt.reshape(-1, 1, 2)
 # This function reshapes the nd array in given rows and columns
-img = cv2.polylines(img, [pt], False, (0, 0, 255))
-# This function creates the polygon -1-The image, 2-Coordinates of vertices, 3-True means it will be a closed polygon, 4-Color of the shape(BGR)
-# The coordinates of the vertices must be 1*2 matrix only so we must reshape it into 1*2 
+img = cv2.polylines(img, [pt], True, (0, 0, 255), 3)
+# This function creates the polygon -(1-The image, 2-Coordinates of vertices, 3-True means it will be a closed polygon, 4-Color of the shape(BGR)
+# The coordinates of the vertices must be 1*2 matrix only so we must reshape it into 1*2) 
 cv2.imshow('frame', img)
 if cv2.waitKey(0) & 0xFF == ord('q'):
 	cv2.destroyWindow('frame')
