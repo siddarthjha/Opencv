@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-cap = cv2.VideoCapture(0)                                     # This function enables the camera and capture the video 
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)                                     # This function enables the camera and capture the video 
 # if using third party camera then use 1 instead of 0
 
 if cap.isOpened() == False:
