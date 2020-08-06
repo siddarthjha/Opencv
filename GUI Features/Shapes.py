@@ -3,13 +3,14 @@ import numpy as np
 
 # Drawing different shapes
 
-img = np.zeros((512, 599, 3), np.uint8)
+img = np.zeros((512, 512, 3), np.uint8)
 # ------------LINE---------------
-img = cv2.line(img, (0,0), (100, 500), (0, 0, 255), 5)     
+img = cv2.line(img, (100,100), (100, 300), (0, 0, 255), 5)
+img = cv2.line(img, (300,100), (300, 300), (0, 0, 255), 5)
 # This function creates the line - (1-the image, 2-Starting coordinates, 3-Ending cordinates, 4-Color of the shape(BGR), 5-Thickness)
 cv2.imshow('image', img)
 if cv2.waitKey(0) & 0xFF == ord('q'):
-	cv2.destroyAllWindows()
+	cv2.destroyWindow('image')
 	
 
 # --------------RECTANGLE------------------
