@@ -2,11 +2,11 @@ import cv2
 import numpy as np
 
 # Drawing different shapes
-#img = cv2.imread('a.jpg')
+
 img = np.zeros((512, 599, 3), np.uint8)
 # ------------LINE---------------
 img = cv2.line(img, (0,0), (100, 500), (0, 0, 255), 5)     
-# This function creates the line - 1-the image, 2-Starting coordinates, 3-Ending cordinates, 4-Color of the shape(BGR), 5-Thickness
+# This function creates the line - (1-the image, 2-Starting coordinates, 3-Ending cordinates, 4-Color of the shape(BGR), 5-Thickness)
 cv2.imshow('image', img)
 if cv2.waitKey(0) & 0xFF == ord('q'):
 	cv2.destroyAllWindows()
