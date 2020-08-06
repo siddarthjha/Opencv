@@ -21,7 +21,7 @@ if cv2.waitKey(0) & 0xFF == ord('q'):
 	cv2.destroyWindow('frame')
 	
 # --------------CIRCLE---------------------
-img = cv2.circle(img, (447, 63), 60, (0, 0, 255), 5)
+img = cv2.circle(img, (250, 250), 70, (0, 0, 255), 5)
 # This function created the circle -(1-The image, 2-The center coordinates, 3-Radius of circle, 4-Color of the shape(BGR), 5-Thickness)
 cv2.imshow('frame', img)
 if cv2.waitKey(0) & 0xFF == ord('q'):
