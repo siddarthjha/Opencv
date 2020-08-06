@@ -59,7 +59,7 @@ if cv2.waitKey(0) & 0xFF == ord('q'):
 # --------------TEXT ON IMAGE-----------------
 img = np.zeros((512, 512, 3), np.uint8)
 font= cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img, 'Siddarth', (10, 500), font, 4, (255, 255, 255), 2, cv2.LINE_AA)
+cv2.putText(img, 'Siddarth', (10, 500), font, 4, (0, 0, 255), 2, cv2.LINE_AA)
 # This function enables to write text on image -(1-The image, 2-The text, 3-Position coordinate, 4-Font type, 5-Font scale, 6-Color, 7-Thickness, 8-Line type)
 cv2.imshow('frame', img)
 if cv2.waitKey(0) & 0xFF == ord('q'):
