@@ -2,6 +2,8 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
+# TO CAPTURE VIDEO FROM CAMERA
+
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)                                     # This function enables the camera and capture the video 
 # if using third party camera then use 1 instead of 0
 
@@ -22,3 +24,15 @@ while cap.isOpened():
 
 cap.release()                                                 # This function releases the camera
 cv2.destroyAllWindows()
+
+# TO PLAY THE EXISTING VIDEO FILE
+cap = cv2.VideoCapture('video.mkv')
+
+while cap.isOpened():
+	ret, frame = cap.read()
+	cv2.imshow('video', frame)
+	if cv2.waitKey(1) & oxFF == ord('q'):
+		break
+cap.release()
+cv2.destroyAllWindows()
+	
