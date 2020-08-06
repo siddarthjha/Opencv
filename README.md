@@ -16,7 +16,7 @@ The code is mainly focused on OpenCV 3.x version (although most of them will als
 7. Open Python IDLE and type following codes in Python terminal
 
 # Table of Contents
-* [GUI Features](https://github.com/siddarthjha/Opencv/tree/master/GUI%20Features)
+* [GUI Features](https://github.com/siddarthjha/Opencv/blob/master/GUI%20Features/README.md)
 
 ## How to Contribute
 
