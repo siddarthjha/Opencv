@@ -14,17 +14,15 @@ if cv2.waitKey(0) & 0xFF == ord('q'):
 	
 
 # --------------RECTANGLE------------------
-img = np.zeros((512, 600, 3), np.uint8)
-img = cv2.rectangle(img, (384, 20), (512, 128), (0, 0, 255), 5)
-# This function creates the rectangle - 1-The image, 2-Top left corner, 3-Bottom right corner, 4-Color of the shape(BGR), 5-Thickness
+img = cv2.rectangle(img, (100, 100), (400, 400), (0, 0, 255), 5)
+# This function creates the rectangle - (1-The image, 2-Top left corner, 3-Bottom right corner, 4-Color of the shape(BGR), 5-Thickness)
 cv2.imshow('frame', img)
 if cv2.waitKey(0) & 0xFF == ord('q'):
 	cv2.destroyWindow('frame')
 	
 # --------------CIRCLE---------------------
-img = np.zeros((512, 600, 3), np.uint8)
 img = cv2.circle(img, (447, 63), 60, (0, 0, 255), 5)
-# This function created the circle -1-The image, 2-The center coordinates, 3-Radius of circle, 4-Color of the shape(BGR), 5-Thickness
+# This function created the circle -(1-The image, 2-The center coordinates, 3-Radius of circle, 4-Color of the shape(BGR), 5-Thickness)
 cv2.imshow('frame', img)
 if cv2.waitKey(0) & 0xFF == ord('q'):
 	cv2.destroyWindow('frame')
