@@ -13,3 +13,6 @@ FourCC is a 4-byte code used to specify the video codec. The list of available c
 
 * [Video](https://github.com/siddarthjha/Opencv/tree/master/GUI%20Features/Video.py)
 
+# Drawing Functions in OpenCV
+You will learn these functions : cv2.line(), cv2.circle() , cv2.rectangle(), cv2.ellipse(), cv2.putText() etc.
+
