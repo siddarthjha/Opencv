@@ -11,7 +11,14 @@ img = cv2.line(img, (300,100), (300, 300), (0, 0, 255), 5)
 cv2.imshow('image', img)
 if cv2.waitKey(0) & 0xFF == ord('q'):
 	cv2.destroyWindow('image')
-	
+# ----------MULTIPLE LINES---------	
+img = np.zeros((512, 512, 3), np.uint8)
+pts = np.array([[25, 70], [25, 160], [110, 200], [200, 160], [200, 70], [110, 20]], np.int32) 	
+pts = pts.reshape((-1, 1, 2)) # UNKNOWN ROWS 1 COLUMN 2 SUB-ELEMENTS.
+img = cv2.polyline(img, [pts], True, (0, 0, 255), 5)
+cv2.imshow('image', img)
+if cv2.waitKey(0) & 0xFF == ord('q'):
+	cv2.destroyWindow('image')
 
 # --------------RECTANGLE------------------
 img = cv2.rectangle(img, (100, 100), (400, 400), (0, 0, 255), 5)
