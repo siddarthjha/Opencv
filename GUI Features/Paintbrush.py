@@ -39,6 +39,13 @@ def draw_circle(event, x, y, flags, param):
         if drawing == True:
             if mode == True:
                 cv2.rectangle(img, (ix, iy), (x, y), (0, 255, 0), -1)
+                """
+                # TO DRAW UNFILLED RECTANGLE-- And also change the thickness above to he positive values.
+                a=x
+                b=y
+                if a != x | b != y:
+                    cv2.rectangle(img,(ix,iy),(x,y),(0,0,0),-1)
+                """ 
             else:
                 cv2.circle(img, (x, y), 5, (0, 0, 255), -1)
 
