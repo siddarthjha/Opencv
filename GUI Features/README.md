@@ -26,4 +26,6 @@ You will learn these functions : **cv2.setMouseCallback().**
 # Trackbar as the Color Palette
 You will learn these functions : **cv2.getTrackbarPos(), cv2.createTrackbar() etc.**
 
+A simple application which shows the color you specify. 
+
 
