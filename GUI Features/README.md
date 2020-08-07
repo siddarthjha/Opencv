@@ -21,4 +21,6 @@ You will learn these functions : cv2.line(), cv2.circle() , cv2.rectangle(), cv2
 # Mouse as a Paint-Brush
 You will learn these functions : cv2.setMouseCallback()
 
+* [Mouse as a Paintbrush](Paintbrush.py)
+
 
