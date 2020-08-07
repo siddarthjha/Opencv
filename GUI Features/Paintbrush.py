@@ -27,7 +27,7 @@ drawing = False # true if mouse is pressed
 mode = True # if True, draw rectangle. Press 'm' to toggle to curve
 ix, iy = -1, -1
 
-# mouse callback function
+# mouse callback function - It draws  circle and Rectangle(Toggle 'm' for rectangle).
 def draw_circle(event, x, y, flags, param):
     global ix, iy, drawing, mode
 
@@ -57,7 +57,7 @@ cv2.setMouseCallback('image', draw_circle)
 while(1):
     cv2.imshow('image', img)
     k = cv2.waitKey(1) & 0xFF
-    if k == ord('m'):
+    if k == ord('m'):                                    # Set a keyboard binding for key ‘m’ to toggle between rectangle and circle.
         mode = not mode
     elif k == 27:
         break
