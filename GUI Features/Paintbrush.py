@@ -5,7 +5,7 @@ import numpy as np
 events = [i for i in dir(cv2) if 'EVENT' in i]
 print(events)
 
-# mouse callback function
+# mouse callback function -  It draws a circle where we double-click.
 def draw_circle(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDBLCLK:
         cv2.circle(img, (x, y), 100, (255, 0, 0), -1)
