@@ -18,4 +18,7 @@ You will learn these functions : cv2.line(), cv2.circle() , cv2.rectangle(), cv2
 
 * [Shapes](https://github.com/siddarthjha/Opencv/blob/master/GUI%20Features/Shapes.py)
 
+# Mouse as a Paint-Brush
+You will learn these functions : cv2.setMouseCallback()
+
 
