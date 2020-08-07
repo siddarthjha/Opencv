@@ -28,4 +28,6 @@ You will learn these functions : **cv2.getTrackbarPos(), cv2.createTrackbar() et
 
 A simple application which shows the color you specify. 
 
+* [Trackbar](Trackbar.py)
+
 
