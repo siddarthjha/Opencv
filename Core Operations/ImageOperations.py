@@ -28,5 +28,8 @@ print(img.dtype)
 face = img[280:540, 330:790]
 img[573:833, 700:1160] = face
 # so here we have copied part of image to other part
+# Splitting and Merging Image Channels
+b,g,r = cv2.split(img)
+img = cv2.merge((b,g,r))
 cv2.waitKey(0)
 cv2.destroyWindow('Image')
