@@ -12,3 +12,14 @@ You will learn these functions : **cv2.add(), cv2.addWeighted() etc.**
 * [Arithmetic Operations](ArithmeticOperations.py)
 
 **Note:** There is a difference between OpenCV addition and Numpy addition. OpenCV addition is a saturated operation while Numpy addition is a modulo operation.
+
+```
+>>> x = np.uint8([250])
+>>> y = np.uint8([30])
+
+>>> print cv2.add(x,y) # 250+30 = 280 => 255
+[[255]]
+
+>>> print x+y          # 250+30 = 280 % 256 = 24
+[24]
+```
