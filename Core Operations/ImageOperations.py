@@ -19,6 +19,9 @@ print(img[100, 100])
 print(img.item(100, 100, 1))
 img.itemset((10, 10, 2), 250)
 print(img.item(10, 10, 2))   
-print(img.shape) # Gives the no of rows and columns of image          
+print(img.shape) # Gives the no of rows and columns of image   
+print(img.size)
+print(img.dtype)
+# img.dtype is very important while debugging because a large number of errors in OpenCV-Python code is caused by invalid datatype.
 cv2.waitKey(0)
 cv2.destroyWindow('Image')
