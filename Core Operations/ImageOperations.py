@@ -23,5 +23,10 @@ print(img.shape) # Gives the no of rows and columns of image
 print(img.size)
 print(img.dtype)
 # img.dtype is very important while debugging because a large number of errors in OpenCV-Python code is caused by invalid datatype.
+# Sometimes, you will have to play with certain region of images. For eye detection in images, 
+# first perform face detection over the image until the face is found, then search within the face region for eyes.
+face = img[280:540, 330:790]
+img[573:833, 700:1160] = face
+# so here we have copied part of image to other part
 cv2.waitKey(0)
 cv2.destroyWindow('Image')
