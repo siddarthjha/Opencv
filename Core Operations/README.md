@@ -8,4 +8,4 @@ Almost all the operations in this section is mainly related to Numpy rather than
 * [Operations](ImageOperations.py)
 
 # Arithmetic Operations on Images
-You will learn these functions : cv2.add(), cv2.addWeighted() etc.
+You will learn these functions : **cv2.add(), cv2.addWeighted() etc.**
