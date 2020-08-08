@@ -1,3 +1,7 @@
+import numpy as np
+import cv2 
+
+
 cv2.namedWindow('dst', cv2.WINDOW_NORMAL)
 img1 = cv2.imread('a.jpg')
 img2 = cv2.imread('x.jpg')
