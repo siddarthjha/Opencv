@@ -26,3 +26,5 @@ You will learn these functions : **cv2.add(), cv2.addWeighted() etc.**
 ```
 # Performance Measurement and Improvement Techniques
 You will see these functions : **cv2.getTickCount, cv2.getTickFrequency etc.**
+
+* [Performance and Optimization](Performance.py)
