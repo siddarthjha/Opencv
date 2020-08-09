@@ -10,6 +10,7 @@ Almost all the operations in this section is mainly related to Numpy rather than
 # Arithmetic Operations on Images
 You will learn these functions : **cv2.add(), cv2.addWeighted() etc.**
 * [Arithmetic Operations](ArithmeticOperations.py)
+* [Image transtion Slide Show](SlideShow_Transition.py)
 
 **Note:** There is a difference between OpenCV addition and Numpy addition. OpenCV addition is a saturated operation while Numpy addition is a modulo operation.
 
