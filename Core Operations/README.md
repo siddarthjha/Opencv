@@ -24,3 +24,5 @@ You will learn these functions : **cv2.add(), cv2.addWeighted() etc.**
 >>> print x+y          # 250+30 = 280 % 256 = 24
 [24]
 ```
+# Performance Measurement and Improvement Techniques
+You will see these functions : **cv2.getTickCount, cv2.getTickFrequency etc.**
