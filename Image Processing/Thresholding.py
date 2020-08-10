@@ -5,6 +5,8 @@ Second argument is the threshold value which is used to classify the pixel value
 Third argument is the maxVal which represents the value to be given if pixel value is more than (sometimes less than) the threshold value.
 OpenCV provides different styles of thresholding and it is decided by the fourth parameter of the function. 
 """
+# Simple Thresholding
+
 img = cv2.imread('b.jpg')
 ret,thresh1 = cv2.threshold(img, 130, 255, cv2.THRESH_BINARY)
 ret,thresh2 = cv2.threshold(img, 150, 255, cv2.THRESH_BINARY_INV)
