@@ -13,3 +13,4 @@ For images which are not bimodal, binarization won’t be accurate.
 If pixel value is greater than a threshold value, it is assigned one value (may be white), else it is assigned another value (may be black).
 
 # Geometric Transformations of Images
+You will see these functions: **cv2.getPerspectiveTransform**
