@@ -15,4 +15,10 @@ If pixel value is greater than a threshold value, it is assigned one value (may 
 # Geometric Transformations of Images
 You will see these functions: **cv2.getPerspectiveTransform**
 
+**cv2.INTER_AREA:** This is used when we need need to shrink an image.
+
+**cv2.INTER_CUBIC:** This is slow but more efficient.
+
+**cv2.INTER_LINEAR:** This is primarily used when zooming is required. This is the default interpolation technique in OpenCV.
+
 * [Geometric Transformations](Geometric_Transformations.py)
