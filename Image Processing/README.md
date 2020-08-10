@@ -11,3 +11,5 @@ For images which are not bimodal, binarization won’t be accurate.
 * [Image Thresholding](Thresholding.py)
 
 If pixel value is greater than a threshold value, it is assigned one value (may be white), else it is assigned another value (may be black).
+
+# Geometric Transformations of Images
