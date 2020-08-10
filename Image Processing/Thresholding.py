@@ -22,6 +22,11 @@ Sixth Argument is C (Constant) − A variable of double type representing the co
 
 """
 
+import numpy as np
+import cv2
+from matplotlib import pyplot as plt
+
+
 img = cv2.imread('b.jpg', 0)
 ret,thresh1 = cv2.threshold(img, 130, 255, cv2.THRESH_BINARY)
 ret,thresh2 = cv2.threshold(img, 150, 255, cv2.THRESH_BINARY_INV)
@@ -29,13 +34,14 @@ ret,thresh3 = cv2.threshold(img, 140, 255, cv2.THRESH_TRUNC)
 ret,thresh4 = cv2.threshold(img, 120, 255, cv2.THRESH_TOZERO)
 ret,thresh5 = cv2.threshold(img, 127, 255, cv2.THRESH_TOZERO_INV)
 
-th2 = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 11, 2)
+th2 = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 11, 2) # ADAPTIVE THRESHOLDING
 th3 = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2)
+ret2,th4 = cv2.threshold(img,0,255,cv2.THRESH_BINARY+cv2.THRESH_OTSU) # OTSU'S BINARIZATION
 
-titles = ['Original Image', 'BINARY', 'BINARY_INV', 'TRUNC', 'TOZERO', 'TOZERO_INV', 'Adaptive Mean', 'Adaptive Gaussian']
-images = [img, thresh1, thresh2, thresh3, thresh4, thresh5, th2, th3]
+titles = ['Original Image', 'BINARY', 'BINARY_INV', 'TRUNC', 'TOZERO', 'TOZERO_INV', 'Adaptive Mean', 'Adaptive Gaussian', 'Otsu']
+images = [img, thresh1, thresh2, thresh3, thresh4, thresh5, th2, th3, th4]
 
-for i in range(8):
+for i in range(9):
     
     plt.subplot(3, 3, i+1)   # Sub-plot (n rows, ncolumns, indexof the particular plot
     plt.imshow(images[i], 'gray') 
@@ -48,3 +54,4 @@ cv2.imshow('Mean', th2)
 cv2.imshow('Gaussian', th3)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
