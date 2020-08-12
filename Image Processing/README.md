@@ -26,3 +26,7 @@ cv2.warpAffine takes a 2x3 transformation matrix while cv2.warpPerspective takes
 
 * [Geometric Transformations](Geometric_Transformations.py)
 
+# Smoothing Images
+Blur imagess with various low pass filters
+
+Apply custom-made filters to images (2D convolution)
