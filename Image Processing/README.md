@@ -30,3 +30,4 @@ cv2.warpAffine takes a 2x3 transformation matrix while cv2.warpPerspective takes
 Blur imagess with various low pass filters
 
 Apply custom-made filters to images (2D convolution)
+* [Image filters](Filters.py)
