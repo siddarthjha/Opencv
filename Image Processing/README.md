@@ -15,6 +15,9 @@ If pixel value is greater than a threshold value, it is assigned one value (may 
 # Geometric Transformations of Images
 You will see these functions: **cv2.getPerspectiveTransform**
 
+cv2.warpAffine takes a 2x3 transformation matrix while cv2.warpPerspective takes a 3x3 transformation matrix as input.
+
+
 **cv2.INTER_AREA:** This is used when we need need to shrink an image.
 
 **cv2.INTER_CUBIC:** This is slow but more efficient.
@@ -23,4 +26,3 @@ You will see these functions: **cv2.getPerspectiveTransform**
 
 * [Geometric Transformations](Geometric_Transformations.py)
 
-* cv2.warpAffine takes a 2x3 transformation matrix while cv2.warpPerspective takes a 3x3 transformation matrix as input.
