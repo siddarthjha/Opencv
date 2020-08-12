@@ -1,5 +1,6 @@
 import numpy as np
 import cv2
+from matplotlib import pyplot as plt
 
 # Scaling
 img = cv2.imread('a.jpg')
@@ -35,3 +36,25 @@ cv2.imshow('Rotation', dst)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
+
+# cv2.warpAffine takes a 2x3 transformation matrix while cv2.warpPerspective takes a 3x3 transformation matrix as input.
+
+# Affine Transformation
+img = cv2.imread('a.jpg')
+img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+rows,cols,ch = img.shape
+
+pts1 = np.float32([[50, 50], [200, 50], [50, 200]])
+pts2 = np.float32([[10, 100], [200, 50], [100, 250]])
+
+M = cv2.getAffineTransform(pts1, pts2)
+
+dst = cv2.warpAffine(img, M, (cols, rows))
+
+plt.subplot(121)
+plt.imshow(img)
+plt.title('Input')
+plt.subplot(122)
+plt.imshow(dst)
+plt.title('Output')
+plt.show()
