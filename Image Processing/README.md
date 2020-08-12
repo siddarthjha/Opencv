@@ -22,3 +22,5 @@ You will see these functions: **cv2.getPerspectiveTransform**
 **cv2.INTER_LINEAR:** This is primarily used when zooming is required. This is the default interpolation technique in OpenCV.
 
 * [Geometric Transformations](Geometric_Transformations.py)
+
+* cv2.warpAffine takes a 2x3 transformation matrix while cv2.warpPerspective takes a 3x3 transformation matrix as input.
