@@ -39,5 +39,9 @@ plt.subplot(326), plt.imshow(bblur), plt.title('Bilateral Filter') # Note surfac
 plt.xticks([]), plt.yticks([])
 
 plt.show()
+"""
+You can use a for loop  and list for more clean code :) 
+I was changing it constantly to see the differences and all... so it's like this.
+"""
 
 
