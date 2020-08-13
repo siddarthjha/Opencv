@@ -9,7 +9,7 @@ kernel = np.ones((5, 5), np.uint8)
 # Erosion - It is useful for removing small white noises
 erosion = cv2.erode(img, kernel, iterations = 1)
 
-# dilation - 
+# dilation - It increases the white region in the image or size of foreground object increases.
 dilation = cv2.dilate(img,kernel,iterations = 1)
 # erosion removes white noises, but it also shrinks our object.
 # So we dilate it. Since noise is gone, they won’t come back, but our object area increases.
