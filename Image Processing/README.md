@@ -35,3 +35,6 @@ Blur images with various low pass filters
 
 Apply custom-made filters to images (2D convolution)
 * [Image filters](Filters.py)
+
+# Morphological Transformations
+We will see different functions like : **cv2.erode(), cv2.dilate(), cv2.morphologyEx() etc.**
