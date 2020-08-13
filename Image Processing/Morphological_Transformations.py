@@ -8,17 +8,20 @@ kernel = np.ones((5, 5), np.uint8)
 
 # Erosion - It is useful for removing small white noises
 erosion = cv2.erode(img, kernel, iterations = 1)
-
-# dilation - It increases the white region in the image or size of foreground object increases.
+# dilation - 
 dilation = cv2.dilate(img,kernel,iterations = 1)
 # erosion removes white noises, but it also shrinks our object.
-# So we dilate it. Since noise is gone, they won’t come back, but our object area increases.
+# So we dilate it. Since noise is gone, they won’t come back, but our object area increases
 
-# Plotting
+# Opening
+opening = cv2.morphologyEx(dilation, cv2.MORPH_OPEN, kernel)
+
 plt.subplot(221), plt.imshow(img), plt.title('Original')
 plt.xticks([]), plt.yticks([])
 plt.subplot(222), plt.imshow(erosion), plt.title('Erosion')
 plt.xticks([]), plt.yticks([])
 plt.subplot(223), plt.imshow(dilation), plt.title('Dilation')
+plt.xticks([]), plt.yticks([])
+plt.subplot(224), plt.imshow(opening), plt.title('Opening')
 plt.xticks([]), plt.yticks([])
 plt.show()
