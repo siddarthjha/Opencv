@@ -28,6 +28,10 @@ cv2.warpAffine takes a 2x3 transformation matrix while cv2.warpPerspective takes
 
 # Smoothing Images
 Blur imagess with various low pass filters
+1. Averaging.
+2. Gaussian Filtering.
+3. Median Filtering.
+4. Bilateral Filtering.
 
 Apply custom-made filters to images (2D convolution)
 * [Image filters](Filters.py)
