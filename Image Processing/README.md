@@ -27,7 +27,7 @@ cv2.warpAffine takes a 2x3 transformation matrix while cv2.warpPerspective takes
 * [Geometric Transformations](Geometric_Transformations.py)
 
 # Smoothing Images
-Blur imagess with various low pass filters
+Blur images with various low pass filters
 1. Averaging.
 2. Gaussian Filtering.
 3. Median Filtering.
