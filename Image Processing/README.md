@@ -37,4 +37,6 @@ Apply custom-made filters to images (2D convolution)
 * [Image filters](Filters.py)
 
 # Morphological Transformations
+Morphological transformations are some simple operations based on the image shape. It is normally performed on binary images.
+
 We will see different functions like : **cv2.erode(), cv2.dilate(), cv2.morphologyEx() etc.**
