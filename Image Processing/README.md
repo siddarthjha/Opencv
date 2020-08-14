@@ -63,3 +63,4 @@ All these steps are included in the cv2.Canny(src, minval, maxval);
 # Image Pyramids
 We will see these functions: **cv2.pyrUp(), cv2.pyrDown().**
 
+* [Image Pyramids](Image_pyramid.py)
