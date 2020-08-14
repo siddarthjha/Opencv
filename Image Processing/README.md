@@ -44,3 +44,5 @@ We will see different functions like : **cv2.erode(), cv2.dilate(), cv2.morpholo
 
 # Image Gradients
 We will see following functions : **cv2.Sobel(), cv2.Scharr(), cv2.Laplacian() etc.**
+
+* [Image Gradients](Gradients.py)
