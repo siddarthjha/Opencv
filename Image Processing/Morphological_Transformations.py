@@ -20,6 +20,10 @@ opening = cv2.morphologyEx(dilation, cv2.MORPH_OPEN, kernel)
 # Closing - Closing is reverse of Opening, Dilation followed by Erosion. It is useful in closing small holes inside the foreground objects, or small black points on the object.
 closing = cv2.morphologyEx(img, cv2.MORPH_CLOSE, kernel)
 
+gradient = cv2.morphologyEx(img, cv2.MORPH_GRADIENT, kernel)
+tophat = cv2.morphologyEx(img, cv2.MORPH_TOPHAT, kernel)
+blackhat = cv2.morphologyEx(img, cv2.MORPH_BLACKHAT, kernel)
+# Plot the above ones also by yourself
 
 # Plotting
 plt.subplot(221), plt.imshow(img), plt.title('Original')
