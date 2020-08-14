@@ -49,3 +49,5 @@ We will see following functions : **cv2.Sobel(), cv2.Scharr(), cv2.Laplacian() e
 
 # Canny Edge Detection
 OpenCV functions for that : **cv2.Canny().**
+
+* [Edge Detection](Edge_Detection.py)
