@@ -59,3 +59,7 @@ Steps in Canny Edge Detection:
 All these steps are included in the cv2.Canny(src, minval, maxval);
 
 * [Edge Detection](Edge_Detection.py)
+
+# Image Pyramids
+We will see these functions: **cv2.pyrUp(), cv2.pyrDown().**
+
