@@ -41,3 +41,6 @@ Morphological transformations are some simple operations based on the image shap
 
 We will see different functions like : **cv2.erode(), cv2.dilate(), cv2.morphologyEx() etc.**
 * [Morphological Transformations](Morphological_Transformations.py)
+
+# Image Gradients
+We will see following functions : **cv2.Sobel(), cv2.Scharr(), cv2.Laplacian() etc.**
