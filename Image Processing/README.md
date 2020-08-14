@@ -50,4 +50,12 @@ We will see following functions : **cv2.Sobel(), cv2.Scharr(), cv2.Laplacian() e
 # Canny Edge Detection
 OpenCV functions for that : **cv2.Canny().**
 
+Steps in Canny Edge Detection:
+1. **Noise Reduction:** Since edge detection is susceptible to noise in the image, first step is to remove the noise in the image with a 5x5 Gaussian filter.
+2. **Finding Intensity Gradient of the Image:** Smoothened image is then filtered with a Sobel kernel in both horizontal and vertical direction.
+3. **Non-maximum Suppression:** After getting gradient magnitude and direction, a full scan of image is done to remove any unwanted pixels which may not constitute the edge. 
+4. **Hysteresis Thresholding:** This stage decides which are all edges are really edges and which are not. For this, we need two threshold values, minVal and maxVal.
+
+All these steps are included in the cv2.Canny(src, minval, maxval);
+
 * [Edge Detection](Edge_Detection.py)
