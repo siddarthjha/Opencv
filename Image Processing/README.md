@@ -63,4 +63,11 @@ All these steps are included in the cv2.Canny(src, minval, maxval);
 # Image Pyramids
 We will see these functions: **cv2.pyrUp(), cv2.pyrDown().**
 
+There are two kinds of Image Pyramids. 
+
+1) Gaussian Pyramid and 
+2) Laplacian Pyramids
+
+
+
 * [Image Pyramids](Image_pyramid.py)
