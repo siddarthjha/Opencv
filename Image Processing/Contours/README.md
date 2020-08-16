@@ -9,6 +9,6 @@ To find the different features of contours, like area, perimeter, centroid, boun
 * [Features](Features.py)
 ## Contour Properties
 Here we will learn to extract some frequently used properties of objects like Solidity, Equivalent Diameter, Mask image, Mean Intensity etc.
-* [Properties](properties.py)
+* [Properties](Properties.py)
 
 
