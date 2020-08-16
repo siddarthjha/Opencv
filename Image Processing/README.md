@@ -69,5 +69,5 @@ There are two kinds of Image Pyramids.
 2) Laplacian Pyramids
 
 * [Image Pyramids](Image_pyramid.py)
-# Contours : Getting Started
-You will see these functions : **cv2.findContours(), cv2.drawContours()**
+# Contours 
+* [Contours](Contours)
