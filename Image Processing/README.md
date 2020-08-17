@@ -71,3 +71,5 @@ There are two kinds of Image Pyramids.
 * [Image Pyramids](Image_pyramid.py)
 # Contours 
 * [Contours](Contours)
+# Histograms
+* [Histograms](Histograms/README.md)
