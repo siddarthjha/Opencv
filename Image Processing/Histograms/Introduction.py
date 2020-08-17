@@ -3,14 +3,14 @@ import cv2
 from matplotlib import pyplot as plt
 
 
-img = cv2.imread('a.jpg')
+img = cv2.imread('b.jpg', 0)
 # Histogram in Open-Cv
-hist = cv2.calcHist([img], [2], None, [16], [0, 15])
+hist = cv2.calcHist([img], [0], None, [256], [0, 256]) # blue
 print(hist)
 plt.plot(hist)
 plt.show()
 
-# Histogram in Numpy
+# Histogram in Matplotlib
 # hist, bins = np.histogram(img.ravel(), 256, [0, 256])
-plt.hist(n_img.ravel(), bins=256, range=(0.0, 1.0), fc='k', ec='k')
-
+plt.hist(img.ravel(), 256, [0, 256])
+plt.show()
