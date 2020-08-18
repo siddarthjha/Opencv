@@ -12,3 +12,4 @@ Note: **In face recognition, before training the face data, the images of faces 
 * [Adaptive Equalization](CLAHE.py)
 # Histograms: 2D Histograms
 Will learn to find and plot 2D histograms.
+* [2D-Histograms](Hist_2D.py)
