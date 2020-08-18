@@ -24,6 +24,7 @@ cv2.imshow('quant', img2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
+# EQUALIZATION in OPEN-CV
 img = cv2.imread('a.jpg',0)
 equ = cv2.equalizeHist(img)
 res = np.hstack((img,equ)) #stacking images side-by-side
