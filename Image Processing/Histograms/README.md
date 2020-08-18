@@ -15,4 +15,6 @@ Will learn to find and plot 2D histograms.
 * [2D-Histograms](Hist_2D.py)
 # Histogram: Histogram Backprojection
 Will learn about histogram backprojection.
+
+It is used for image segmentation or finding objects of interest in an image.
 * [Back Projection](Backprojection.py)
