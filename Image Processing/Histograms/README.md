@@ -8,3 +8,5 @@ Will learn the concepts of histogram equalization and use it to improve the cont
 * [Histogram Equalization](Equalization.py)
 
 Note: **In face recognition, before training the face data, the images of faces are histogram equalized to make them all with same lighting conditions.**
+
+* CLAHE (Contrast Limited Adaptive Histogram Equalization)
