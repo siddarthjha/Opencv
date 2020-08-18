@@ -6,4 +6,5 @@ You will see these functions : cv2.calcHist(), np.histogram() etc.
 # Histograms: Histogram Equalization
 Will learn the concepts of histogram equalization and use it to improve the contrast of our images.
 * [Histogram Equalization](Equalization.py)
+
 Note: **In face recognition, before training the face data, the images of faces are histogram equalized to make them all with same lighting conditions.**
