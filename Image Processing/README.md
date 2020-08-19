@@ -8,7 +8,7 @@ You will learn these functions : cv2.threshold, cv2.adaptiveThreshold etc.
 It automatically calculates a threshold value from image histogram for a bimodal image. Like we give the threshold value in cv2.threshold, instead of it this calculates the threshold value.  
 
 For images which are not bimodal, binarization won’t be accurate.
-* [Image Thresholding](Thresholding.py)
+* [Image Thresholding](02_Thresholding.py)
 
 If pixel value is greater than a threshold value, it is assigned one value (may be white), else it is assigned another value (may be black).
 
@@ -24,7 +24,7 @@ cv2.warpAffine takes a 2x3 transformation matrix while cv2.warpPerspective takes
 
 **cv2.INTER_LINEAR:** This is primarily used when zooming is required. This is the default interpolation technique in OpenCV.
 
-* [Geometric Transformations](Geometric_Transformations.py)
+* [Geometric Transformations](03_Geometric_Transformations.py)
 
 # Smoothing Images
 Blur images with various low pass filters
@@ -34,18 +34,18 @@ Blur images with various low pass filters
 4. Bilateral Filtering.
 
 Apply custom-made filters to images (2D convolution)
-* [Image filters](Filters.py)
+* [Image filters](04_Filters.py)
 
 # Morphological Transformations
 Morphological transformations are some simple operations based on the image shape. It is normally performed on binary images.
 
 We will see different functions like : **cv2.erode(), cv2.dilate(), cv2.morphologyEx() etc.**
-* [Morphological Transformations](Morphological_Transformations.py)
+* [Morphological Transformations](05_Morphological_Transformations.py)
 
 # Image Gradients
 We will see following functions : **cv2.Sobel(), cv2.Scharr(), cv2.Laplacian() etc.**
 
-* [Image Gradients](Gradients.py)
+* [Image Gradients](06_Gradients.py)
 
 # Canny Edge Detection
 OpenCV functions for that : **cv2.Canny().**
@@ -58,7 +58,7 @@ Steps in Canny Edge Detection:
 
 All these steps are included in the cv2.Canny(src, minval, maxval);
 
-* [Edge Detection](Edge_Detection.py)
+* [Edge Detection](07_Edge_Detection.py)
 
 # Image Pyramids
 We will see these functions: **cv2.pyrUp(), cv2.pyrDown().**
@@ -68,10 +68,10 @@ There are two kinds of Image Pyramids.
 1) Gaussian Pyramid and 
 2) Laplacian Pyramids
 
-* [Image Pyramids](Image_pyramid.py)
+* [Image Pyramids](08_Image_pyramid.py)
 # Contours 
 * [Contours](Contours)
 # Histograms
 * [Histograms](Histograms/README.md)
 # Image Transforms in OpenCV
-* [Fourier Transform]()
+* [Fourier Transform](10_Fourier.py)
