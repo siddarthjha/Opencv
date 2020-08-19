@@ -74,4 +74,5 @@ There are two kinds of Image Pyramids.
 # Histograms
 * [Histograms](Histograms/README.md)
 # Image Transforms in OpenCV
+Fourier Transform is used to analyze the frequency characteristics of various filters. For images, 2D Discrete Fourier Transform (DFT) is used to find the frequency domain. A fast algorithm called Fast Fourier Transform (FFT) is used for calculation of DFT
 * [Fourier Transform](10_Fourier.py)
