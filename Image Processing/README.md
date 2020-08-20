@@ -83,3 +83,4 @@ You will see these functions : **cv2.matchTemplate(), cv2.minMaxLoc().**
 # Hough Line Transform
 Will see how to use it detect lines in an image.
 We will see following functions: **cv2.HoughLines(), cv2.HoughLinesP().**
+* [Hough Line Transform](12_Hough_Line.py)
