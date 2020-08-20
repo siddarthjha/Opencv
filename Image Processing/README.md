@@ -80,3 +80,6 @@ Fourier Transform is used to analyze the frequency characteristics of various fi
 To find objects in an image using Template Matching.
 You will see these functions : **cv2.matchTemplate(), cv2.minMaxLoc().**
 * [Template matching](11_Template_Matching.py)
+# Hough Line Transform
+Will see how to use it detect lines in an image.
+We will see following functions: **cv2.HoughLines(), cv2.HoughLinesP().**
