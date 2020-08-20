@@ -84,3 +84,7 @@ You will see these functions : **cv2.matchTemplate(), cv2.minMaxLoc().**
 Will see how to use it detect lines in an image.
 We will see following functions: **cv2.HoughLines(), cv2.HoughLinesP().** Probabilistic Hough Transform (Optimized hough line transform).
 * [Hough Line Transform](12_Hough_Line.py)
+# Hough Circle Transform
+Will learn to use Hough Transform to find circles in an image.
+We will see these functions: **cv2.HoughCircles().**
+* []()
