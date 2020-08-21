@@ -88,3 +88,7 @@ We will see following functions: **cv2.HoughLines(), cv2.HoughLinesP().** Probab
 Will learn to use Hough Transform to find circles in an image.
 We will see these functions: **cv2.HoughCircles().**
 * [Hough Circle Transform](13_HoughCircle.py)
+# Image Segmentation with Watershed Algorithm
+Will learn to use marker-based image segmentation using watershed algorithm
+We will see: **cv2.watershed().**
+* []()
