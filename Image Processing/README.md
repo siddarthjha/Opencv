@@ -92,3 +92,4 @@ We will see these functions: **cv2.HoughCircles().**
 Will learn to use marker-based image segmentation using watershed algorithm
 We will see: **cv2.watershed().**
 * []()
+With normal watershed segmentation we have noise in image so the result is not optimal. So **marker-based Watershed Algorithm** is introduced. We label the objects in the image with a color and other as 0 which we are not sure of. Boundaries of object will have -1.
