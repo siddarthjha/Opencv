@@ -94,3 +94,7 @@ We will see: **cv2.watershed().**
 * [Segmentation with Watershed Algorithm](14_Marker_WaterhsedAlgo.py)
 
 With normal watershed segmentation we have noise in image so the result is not optimal. So **marker-based Watershed Algorithm** is introduced. We label the objects in the image with a color and other as 0 which we are not sure of. Boundaries of object will have -1.
+# Interactive Foreground Extraction using GrabCut Algorithm
+Will see GrabCut algorithm to extract foreground in images
+We will create an interactive application for this.
+* []()
