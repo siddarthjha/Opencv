@@ -1,6 +1,16 @@
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
+"""
+1. Thresholding (any type, we have used otsu binarization).
+2. Remove background noise (MorphologyEx = Opening).
+3. Remove Foreground Noise (MorphologyEx = closing).
+4. Increase the foreground object size (Dilation, of 2-opening). # SURE BACKGROUND
+5. Finding exact foreground object using Distance trasnform with thresholding. # SURE FOREGROUND
+6. Find the unknown region by subtracting the 4 & 5.
+7. Mark all with 1.
+8. Later mark the unknown region with 0 so that background region will not be marked 0.
+"""
 
 # Otsu's Binarization Thresholding
 img = cv2.imread('b.jpg')
@@ -50,12 +60,20 @@ cv2.destroyAllWindows()
 # Marker labelling
 ret, markers = cv2.connectedComponents(sure_fg)
 
+
 # Add one to all labels so that sure background is not 0, but 1
 markers = markers+1
 
 # Now, mark the region of unknown with zero
 markers[unknown==255] = 0
 
+markers = cv2.watershed(img,markers)
+img[markers == -1] = [255,0,0]
+"""
+cv2.imshow('Final Result', markers)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+"""
 # Plotting
 plt.subplot(3, 2, 1), plt.imshow(thresh, cmap = 'gray'), plt.title('Otsu Thresh')
 plt.xticks([]), plt.yticks([])
@@ -66,5 +84,7 @@ plt.xticks([]), plt.yticks([])
 plt.subplot(3, 2, 4), plt.imshow(sure_fg, cmap = 'gray'), plt.title('Sure Foreground')
 plt.xticks([]), plt.yticks([])
 plt.subplot(3, 2, 5), plt.imshow(unknown, cmap = 'gray'), plt.title('Unknown')
+plt.xticks([]), plt.yticks([])
+plt.subplot(3, 2, 6), plt.imshow(markers, cmap = 'gray'), plt.title('Result')
 plt.xticks([]), plt.yticks([])
 plt.show()
