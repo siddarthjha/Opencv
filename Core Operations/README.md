@@ -5,12 +5,12 @@
 * Splitting and Merging images
 
 Almost all the operations in this section is mainly related to Numpy rather than OpenCV. A good knowledge of Numpy is required to write better optimized code with OpenCV
-* [Operations](ImageOperations.py)
+* [Operations](01_ImageOperations.py)
 
 # Arithmetic Operations on Images
 You will learn these functions : **cv2.add(), cv2.addWeighted() etc.**
-* [Arithmetic Operations](ArithmeticOperations.py)
-* [Image transtion Slide Show](SlideShow_transition.py)
+* [Arithmetic Operations](02_ArithmeticOperations.py)
+* [Image transtion Slide Show](04_SlideShow_transition.py)
 
 **Note:** There is a difference between OpenCV addition and Numpy addition. OpenCV addition is a saturated operation while Numpy addition is a modulo operation.
 
@@ -27,7 +27,7 @@ You will learn these functions : **cv2.add(), cv2.addWeighted() etc.**
 # Performance Measurement and Improvement Techniques
 You will see these functions : **cv2.getTickCount, cv2.getTickFrequency etc.**
 
-* [Performance](Performance.py)
+* [Performance](03_Performance.py)
 
 #### Default Optimization in OpenCV
 ```
