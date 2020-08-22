@@ -97,4 +97,4 @@ With normal watershed segmentation we have noise in image so the result is not o
 # Interactive Foreground Extraction using GrabCut Algorithm
 Will see GrabCut algorithm to extract foreground in images
 We will create an interactive application for this.
-* []()
+* [Foreground Extraction](15_Foreground_Extraction.py)
