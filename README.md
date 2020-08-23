@@ -19,6 +19,7 @@ The code is mainly focused on OpenCV 3.x version (although most of them will als
 * [GUI Features](GUI%20Features/README.md)
 * [Core Operations](Core%20Operations/README.md)
 * [Image Processing](Image%20Processing/README.md)
+* [Feature Detection and Description](Feature%20Detection/README.md)
 
 ## How to Contribute
 
