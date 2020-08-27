@@ -6,6 +6,8 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 gray = np.float32(gray)
 dst = cv2.cornerHarris(gray, 2, 3, 0.04)
+# img- should be grayscale and float type, blocksize- size of neighbourhood, ksize- aperture parameter of sobel derivative used, 
+# k- harris detector free parameter in the equation
 
 #result is dilated for marking the corners, not important
 dst = cv2.dilate(dst, None)
