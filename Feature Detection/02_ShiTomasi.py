@@ -5,6 +5,7 @@ from matplotlib import pyplot as plt
 img = cv2.imread('b.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
+# grayscale img, Number of corners, Quality (0-1), Euclidean distance
 corners = cv2.goodFeaturesToTrack(gray, 25, 0.01, 10)
 corners = np.int0(corners)
 
