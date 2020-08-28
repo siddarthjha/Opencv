@@ -7,3 +7,7 @@ Features are regions of images with variation. Like the corners of a image.
 Will understand the concepts behind Harris Corner Detection.
 We will see the functions: **cv2.cornerHarris(), cv2.cornerSubPix().**
 * [Harris Corner Detection](01_HarrisDetection.py)
+# Shi-Tomasi Corner Detector
+Will learn about the another corner detector: Shi-Tomasi Corner Detector
+We will see the function: **cv2.goodFeaturesToTrack().**
+* [Shi-Tomasi Detector] ()
