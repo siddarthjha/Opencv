@@ -10,4 +10,4 @@ We will see the functions: **cv2.cornerHarris(), cv2.cornerSubPix().**
 # Shi-Tomasi Corner Detector
 Will learn about the another corner detector: Shi-Tomasi Corner Detector
 We will see the function: **cv2.goodFeaturesToTrack().**
-* [Shi-Tomasi Detector] ()
+* [Shi-Tomasi Detector] (02_ShiTomasi.py)
