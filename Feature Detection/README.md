@@ -12,3 +12,7 @@ Will learn about the another corner detector: Shi-Tomasi Corner Detector
 We will see the function: **cv2.goodFeaturesToTrack().**<br>
 ###### This function is more appropriate for tracking
 * [Shi-Tomasi Detector](02_ShiTomasi.py)
+# Scale-Invariant Feature Transform
+Will learn about the concepts of SIFT algorithm
+We will learn to find SIFT Keypoints and Descriptors.
+* [SIFT](.py) 
