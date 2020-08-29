@@ -15,4 +15,4 @@ We will see the function: **cv2.goodFeaturesToTrack().**<br>
 # Scale-Invariant Feature Transform
 Will learn about the concepts of SIFT algorithm
 We will learn to find SIFT Keypoints and Descriptors.
-* [SIFT](.py) 
+* [SIFT](03_SIFT.py) 
