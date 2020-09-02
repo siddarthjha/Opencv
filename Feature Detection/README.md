@@ -27,3 +27,7 @@ After installing this the SIFT program will run properly.
 We will find corners using OpenCV functionalities for FAST algorithm.
 * [FAST (Features from Accelerated Segment Test)](04_FAST.py)
 
+All the above methods are really good but when it comes to real time application they are not fast enough. It is several times faster than other existing corner detectors. But it is not robust to high levels of noise. It is dependant on a threshold.
+
+ 
+
