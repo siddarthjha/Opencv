@@ -23,5 +23,7 @@ To implement SIFT you need to install opencv-contrib
 pip install opencv-contrib-python
 ```
 After installing this the SIFT program will run properly.
-
+# FAST Algorithm for Corner Detection
+We will find corners using OpenCV functionalities for FAST algorithm.
+* [FAST (Features from Accelerated Segment Test)](04_FAST.py)
 
