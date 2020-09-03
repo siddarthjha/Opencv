@@ -16,7 +16,7 @@ We will see the function: **cv2.goodFeaturesToTrack().**<br>
 Will learn about the concepts of SIFT algorithm
 We will learn to find SIFT Keypoints and Descriptors.
 
-**NOTE:**: Make sure you have installed the required modules from [here](requirments.txt)
+**NOTE:**: Make sure you have installed the required modules from [here](requirements.txt)
 ```
 pip install -r requirements.txt
 ```
