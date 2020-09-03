@@ -15,6 +15,11 @@ We will see the function: **cv2.goodFeaturesToTrack().**<br>
 # Scale-Invariant Feature Transform
 Will learn about the concepts of SIFT algorithm
 We will learn to find SIFT Keypoints and Descriptors.
+
+**NOTE:**: Make sure you have installed the required modules from [here](requirments.txt)
+```
+pip install -r requirements.txt
+```
 * [SIFT](03_SIFT.py) <br>
 There is another modification of SIFT which is SURF (Speeded Up Robust Features).<br>
 As these both are SIFT and SURF are patented so not free for commercial use.
