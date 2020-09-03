@@ -17,7 +17,7 @@ Will learn about the concepts of SIFT algorithm
 We will learn to find SIFT Keypoints and Descriptors.
 * [SIFT](03_SIFT.py) <br>
 There is another modification of SIFT which is SURF (Speeded Up Robust Features).<br>
-As these both are been removed from opencv so i haven't implemented the SURF algorithm.
+As these both are SIFT and SURF are patented so not free for commercial use.
 To implement SIFT you need to install opencv-contrib
 ```
 pip install opencv-contrib-python
