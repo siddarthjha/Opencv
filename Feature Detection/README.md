@@ -34,6 +34,9 @@ We will find corners using OpenCV functionalities for FAST algorithm.
 
 All the above methods are really good but when it comes to real time application they are not fast enough. It is several times faster than other existing corner detectors. But it is not robust to high levels of noise. It is dependant on a threshold.
 # BRIEF
+It provides a shortcut to find the binary strings directly without finding descriptors, other than SIFT and SURF which require descriptors and takes a lot of memory.
+
+But BRIEF doesn't provide feature detectors for that you can use SIFT or SURF, but it is recommended to use CesnSurE as it works slightly better.
 * [BRIEF (Binary Robust Independent Elementary Features)](05_BRIEF.py)
 # ORB
 * [](06_.py)
