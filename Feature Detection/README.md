@@ -44,5 +44,5 @@ An efficient alternative to SIFT or SURF. SIFT and SURF are patented and you are
 # Feature Matching
 Will see how to match features in one image with others.
 We will use the Brute-Force matcher and FLANN Matcher in OpenCV
-[Feature Matching](07_FeatureMatching.py)
+* [Feature Matching](07_FeatureMatching.py)
 # 
