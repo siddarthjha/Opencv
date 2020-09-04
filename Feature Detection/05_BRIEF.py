@@ -20,5 +20,5 @@ img = cv2.drawKeypoints(img, kp, outImage = None)
 cv2.imshow('BRIEF', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-print(brief.getByte())
+
 print(des.shape)
