@@ -39,5 +39,6 @@ It provides a shortcut to find the binary strings directly without finding descr
 But BRIEF doesn't provide feature detectors for that you can use SIFT or SURF, but it is recommended to use CesnSurE as it works slightly better.
 * [BRIEF (Binary Robust Independent Elementary Features)](05_BRIEF.py)
 # ORB
-* [](06_.py)
+An efficient alternative to SIFT or SURF. SIFT and SURF are patented and you are supposed to pay them for its use. But ORB is not !!!
+* [ORB (Oriented FAST and Rotated BRIEF)](06_.py)
 # 
