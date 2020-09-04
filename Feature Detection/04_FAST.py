@@ -22,6 +22,8 @@ print("Threshold: ", fast.getThreshold)
 print("nonmaxSuppression: ", fast.getNonmaxSuppression())
 print("neighborhood: ", fast.getType())
 print("Total Keypoints with nonmaxSuppression: ", len(kp))
+# Nonmax Suppression : It detects the object only once with the highest probability and removes the other ones.
+
 
 cv2.imshow('Fast true', img2)
 cv2.waitKey(0)
