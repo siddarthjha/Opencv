@@ -41,4 +41,7 @@ But BRIEF doesn't provide feature detectors for that you can use SIFT or SURF, b
 # ORB
 An efficient alternative to SIFT or SURF. SIFT and SURF are patented and you are supposed to pay them for its use. But ORB is not !!!
 * [ORB (Oriented FAST and Rotated BRIEF)](06_.py)
-# 
+# Feature Matching
+Will see how to match features in one image with others.
+We will use the Brute-Force matcher and FLANN Matcher in OpenCV
+[Feature Matching](07_.py)
