@@ -21,7 +21,7 @@ We will learn to find SIFT Keypoints and Descriptors.
 pip install -r requirements.txt
 ```
 * [SIFT](03_SIFT.py) <br>
-There is another modification of SIFT which is SURF (Speeded Up Robust Features).<br>
+There is another modification of SIFT which is **SURF (Speeded Up Robust Features).**<br>
 As these both are SIFT and SURF are patented so not free for commercial use.
 To implement SIFT you need to install opencv-contrib
 ```
@@ -47,4 +47,4 @@ We will use the Brute-Force matcher and FLANN Matcher in OpenCV
 * [Feature Matching](07_FeatureMatching.py)
 # Feature Matching + Homography to find Objects
 We will mix up the feature matching and findHomography from calib3d module to find known objects in a complex image.
-* [Feature Matching with Homography](08_.py)
+* [Feature Matching with Homography](08_MatchingHomography.py)
