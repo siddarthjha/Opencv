@@ -45,4 +45,6 @@ An efficient alternative to SIFT or SURF. SIFT and SURF are patented and you are
 Will see how to match features in one image with others.
 We will use the Brute-Force matcher and FLANN Matcher in OpenCV
 * [Feature Matching](07_FeatureMatching.py)
-# 
+# Feature Matching + Homography to find Objects
+We will mix up the feature matching and findHomography from calib3d module to find known objects in a complex image.
+* [Feature Matching with Homography](08_.py)
