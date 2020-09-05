@@ -20,6 +20,7 @@ The code is mainly focused on OpenCV 3.x version (although most of them will als
 * [Core Operations](Core%20Operations/README.md)
 * [Image Processing](Image%20Processing/README.md)
 * [Feature Detection and Description](Feature%20Detection/README.md)
+* [Video Analysis](Video%20Analysis/README.md)
 
 ## How to Contribute
 
